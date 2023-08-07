@@ -2,8 +2,7 @@
 /node_modules
 /public/build
 /public/hot
-/public/storage
-/public/backend/assets
+
 /resources/views/admin-template
 /storage/*.key
 /vendor
@@ -19,3 +18,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/public/storage
+/public/backend/assets
