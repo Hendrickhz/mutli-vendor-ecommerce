@@ -35,3 +35,6 @@ require __DIR__.'/auth.php';
 
 //admin routes and vendor routes are in admin.php and vendor.php.
 // separate route files need to register in routeServiceProvider
+
+
+Route::get('/admin/login',[AdminController::class,'loginPage'])->name('admin.loginPage');
